@@ -3,13 +3,13 @@
 [Create alpine & docker](https://github.com/Cethy/alpine-docker-client)
 
 ```shell=
-docker pull theresaliao/whaler_golang:1.1.0
-docker run --name whaler_golang \
+$ docker pull theresaliao/whaler_golang:1.1.0
+$ docker run --name whaler_golang \
 -ti -d \
 -v /var/run/docker.sock:/var/run/docker.sock \
 whaler_golang:1.0.0 \
 sh
            
-docker exec -ti whaler_golang sh
-./Whaler -sV=1.36 aquamars00/deeplook_cityeyes:1.1.0
+$ docker exec -ti whaler_golang sh
+$ ./Whaler -sV=1.36 aquamars00/deeplook_cityeyes:1.1.0
 ```
