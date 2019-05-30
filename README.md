@@ -11,5 +11,5 @@ whaler_golang:1.0.0 \
 sh
            
 $ docker exec -ti whaler_golang sh
-$ ./Whaler -sV=1.36 aquamars00/deeplook_cityeyes:1.1.0
+$ ./Whaler -sV=1.36 ${}
 ```
