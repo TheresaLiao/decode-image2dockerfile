@@ -11,5 +11,5 @@ whaler_golang:1.0.0 \
 sh
            
 $ docker exec -ti whaler_golang sh
-$ ./Whaler -sV=1.36 ${}
+$ ./Whaler -sV=1.36 ${image_}
 ```
